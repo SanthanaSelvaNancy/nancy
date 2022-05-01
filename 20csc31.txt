@@ -1,0 +1,11 @@
+> library(readxl)
+> datafile_1_ <- read_excel("C:/Users/Renishma/Downloads/datafile (1).xls")
+> View(datafile_1_)
+> 20csc31<-read_excel("C:/Users/Renishma/Downloads/datafile (1).xls")
+Error: unexpected symbol in "20csc31"
+> mydata<-read_excel("C:/Users/Renishma/Downloads/datafile (1).xls")
+> mean(mydata$Others)
+[1] 11.98111
+> var(mydata$Others)
+[1] 212.8645
+> 
